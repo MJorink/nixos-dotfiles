@@ -1,0 +1,47 @@
+# Background color
+color=#000000
+
+# Font
+font=UbuntuNerdFont 14
+
+# Inside the ring (Transparent)
+inside-color=14151400
+inside-clear-color=14151400
+inside-ver-color=14151400
+inside-wrong-color=14151400
+
+# Ring
+ring-color=3b403caa
+ring-clear-color=7ec97ecc
+ring-ver-color=71a1d6cc
+ring-wrong-color=f16e65cc
+
+# Key press highlights
+key-hl-color=ef944dff
+bs-hl-color=f16e65cc
+
+# Lines (Transparent)
+line-color=00000000
+line-clear-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+
+# Text
+text-color=f6be93dd
+text-clear-color=7ec97edd
+text-ver-color=71a1d6dd
+text-wrong-color=f16e65dd
+text-caps-lock-color=efbf71dd
+
+# Separator
+separator-color=00000000
+
+# Indicator
+indicator-radius=100
+indicator-thickness=8
+indicator-idle-visible=false
+indicator-caps-lock
+
+# Behavior
+ignore-empty-password
+show-failed-attempts
