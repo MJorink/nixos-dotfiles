@@ -32,10 +32,9 @@
 							".config/spotify"
 							".config/micro"
 							".config/Mullvad VPN"
-							".local/state/nix"
 							".local/state/noctalia"
-							".local/share/wireplumber"
-							".local/share/fish"
+							".local/state/wireplumber"
+							".local/share/zsh"
 							".local/share/keyrings"
 							".local/share/me.proton.authenticator"
 						];

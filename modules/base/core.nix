@@ -1,6 +1,8 @@
 { self, inputs, ... }: {
 	flake.nixosModules.base = { pkgs, ... }: {
 		security.sudo.wheelNeedsPassword = false;
+		users.defaultUserShell = self.packages.${pkgs.stdenv.hostPlatform.system}.myZsh;
+		environment.shells = [ "${self.packages.${pkgs.stdenv.hostPlatform.system}.myZsh}/bin/zsh" ];
 		
 		time.timeZone = "Europe/Amsterdam";
 		networking.networkmanager.enable = true;

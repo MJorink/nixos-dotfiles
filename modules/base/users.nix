@@ -6,7 +6,6 @@
 				#initialPassword = "12345"; # For system setup
 				hashedPasswordFile = "/persistent/passwd";
 				extraGroups = [ "wheel" "networkmanager" ];
-				shell = pkgs.fish;
 			};
 		};
 	};

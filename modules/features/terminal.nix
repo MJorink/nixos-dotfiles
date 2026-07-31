@@ -1,8 +1,5 @@
 { self, inputs, ... }: {
 	flake.nixosModules.terminal = { pkgs, lib, ... }: {
-		imports = [
-			self.nixosModules.fish
-		];
 		environment.systemPackages = with pkgs; [
 			claude-code
 			unzip
