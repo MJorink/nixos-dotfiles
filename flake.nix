@@ -12,5 +12,7 @@
 		mangowm.url = "github:mangowm/mango";
 		noctalia.url = "github:noctalia-dev/noctalia/cachix";
 	};
-	outputs = inputs: inputs.flake-parts.lib.mkFlake {inherit inputs;} (inputs.import-tree ./modules);
+	outputs = inputs: inputs.flake-parts.lib.mkFlake {inherit inputs;} {
+		imports = [./parts.nix (inputs.import-tree ./modules)];
+	};
 }
