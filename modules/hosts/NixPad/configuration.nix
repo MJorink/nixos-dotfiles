@@ -10,6 +10,7 @@
 			self.nixosModules.base
 			self.nixosModules.terminal
 			self.nixosModules.desktop
+			self.nixosModules.debloat
 		];
 	};
 }
